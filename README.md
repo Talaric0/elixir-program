@@ -7,35 +7,35 @@
 The function total_per_person takes two arguments, on this order:
 
 1 - shopping_list = Array of Hashes with the following keys:
-    :name -> string,
-    :quantity -> integer,
-    :price -> integer (cents)
+      :name -> string,
+      :quantity -> integer,
+      :price -> integer (cents)
 
-    fe: [
-      {
-        name: "banana",
-        quantity: 2,
-        price: 120
-      },
-      {
-        name: "apple",
-        quantity: 5,
-        price: 100
-      },
-      {
-        name: "nutella",
-        quantity: 1,
-        price: 10000000000000000000000000000000
-      },
-    ]
+        fe: [
+          {
+            name: "banana",
+            quantity: 2,
+            price: 120
+          },
+          {
+            name: "apple",
+            quantity: 5,
+            price: 100
+          },
+          {
+            name: "nutella",
+            quantity: 1,
+            price: 10000000000000000000000000000000
+          },
+        ]
 
 2 - users = Array of Strings
-  fe: [
-    "johny_b_good@gmail.com",
-    "john_doe@gmail.com",
-    "joao_estrela@gmail.com",
-    "joao_zinho@gmail.com"
-  ]
+      fe: [
+        "johny_b_good@gmail.com",
+        "john_doe@gmail.com",
+        "joao_estrela@gmail.com",
+        "joao_zinho@gmail.com"
+      ]
 
 ### Output
   The function PRINTS on the screen:
